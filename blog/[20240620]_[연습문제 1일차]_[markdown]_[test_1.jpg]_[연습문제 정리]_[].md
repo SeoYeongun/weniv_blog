@@ -110,3 +110,39 @@ z = x
  
 print(id(x), id(y), id(z))
 ```
+2.
+```python
+# 정답: 3번, 5번, 6번
+```
+3.
+```python
+# 정답
+user_input = input()
+user_input * 2
+```
+4.
+```python
+# 정답
+n = 1234567890123123123
+len(set(str(n)))
+```
+5.
+```python
+# 정답
+s = 'jun'
+s = s + s[-1] * 2
+print(s)
+```
+6.
+```python
+# 정답
+s = 'hello_world123'
+table = str.maketrans('', '', 'abcde0123456789-_')
+s.translate(table)
+```
+7.
+```python
+s[::-1].split('.')[0][::-1] # 정답1
+s.split('.')[-1] # 정답2
+s[s.rindex('.')+1:] # 정답3
+```
