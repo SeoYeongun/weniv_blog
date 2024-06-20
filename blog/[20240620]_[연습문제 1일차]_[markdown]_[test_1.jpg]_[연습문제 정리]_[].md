@@ -93,3 +93,20 @@ z = x
  
 print(id(x), id(y), id(z))
 ```
+```python
+# 문제2
+x = 258
+y = 258
+z = x
+```
+```python
+# 정답
+# z ┐
+# x -> 258
+# y -> 258
+x = 258
+y = 258
+z = x
+ 
+print(id(x), id(y), id(z))
+```
